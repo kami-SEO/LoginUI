@@ -17,7 +17,7 @@
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@mipmap/ic_launcher"
+            android:src="@mipmap/ic_launcher"/>
 
     </LinearLayout>
     <TextView
@@ -27,6 +27,7 @@
         android:layout_marginTop="30dp"/>
 
     <EditText
+        android:id="@+id/idEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="이메일양식"
@@ -39,6 +40,7 @@
         android:layout_marginTop="20dp"/>
 
     <EditText
+        android:id="@+id/passwordEdt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="비밀번호입력"
@@ -51,6 +53,7 @@
 <!--    //밑으로 밀어줄거기 때문에 높이 0으로 하고 weight 1주기-->
 
     <Button
+        android:id="@+id/loginBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="로그인"/>
