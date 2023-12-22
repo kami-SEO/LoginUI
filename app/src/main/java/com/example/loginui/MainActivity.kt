@@ -20,8 +20,10 @@ class MainActivity : AppCompatActivity() {
             //맞을 떄 틀릴때 처리
             //id+pW 모두
             if (inputId =="admin@test.com" && inputPw == "qwer"){
-                //둘다 맞으면 토스트 실행 
-                Toast.makeText(this, "관리자입니다", Toast.LENGTH_SHORT).show()
+                //관리자이름을 저장
+                val name ="강민"
+                //둘다 맞으면 토스트 실행 강민관리자 나오도록 변수에 따라
+                Toast.makeText(this, "${name}관리자입니다", Toast.LENGTH_SHORT).show()
 
             }
             else{
